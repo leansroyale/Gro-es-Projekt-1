@@ -49,7 +49,7 @@ void setup()
   lc.setIntensity(0,8);
   lc.clearDisplay(0);
 
-  myRFID.AddicoreRFID_Init();
+  myRFID.AddicoreRFID_Init()
 
   Serial.begin(9600);
 }
